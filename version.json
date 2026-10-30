@@ -1,0 +1,6 @@
+{
+  "version_code": 2,
+  "version_name": "1.1",
+  "apk_url": "https://<user>.github.io/furryspace/app-v1.1.apk",
+  "update_notes": "1. 新增实时消息接收（WebSocket 推送，无需手动刷新）\n2. 会话列表未读/末条消息实时更新\n3. 修复已知问题并优化体验"
+}
