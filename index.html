@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Furry Talking - 下载</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: linear-gradient(160deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .card {
+    background: #fff;
+    border-radius: 20px;
+    max-width: 420px;
+    width: 100%;
+    padding: 32px 28px;
+    box-shadow: 0 20px 60px rgba(0,0,0,.25);
+    text-align: center;
+  }
+  .logo {
+    width: 72px; height: 72px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    font-size: 34px;
+    line-height: 72px;
+    font-weight: 700;
+    margin: 0 auto 16px;
+    user-select: none;
+  }
+  h1 { font-size: 24px; color: #2d2d3a; margin-bottom: 4px; }
+  .ver { color: #8a8aa3; font-size: 14px; margin-bottom: 20px; }
+  .ver b { color: #667eea; }
+  .notes {
+    background: #f6f7fb;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: left;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 22px;
+  }
+  .notes h2 { font-size: 14px; color: #2d2d3a; margin-bottom: 6px; }
+  .btn {
+    display: block;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 14px 0;
+    border-radius: 14px;
+    transition: opacity .2s, transform .15s;
+  }
+  .btn:hover { opacity: .9; transform: translateY(-1px); }
+  .tip { margin-top: 14px; font-size: 12px; color: #a0a0b8; }
+  .footer { margin-top: 18px; font-size: 12px; color: #b5b5cc; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">FT</div>
+    <h1>Furry Talking</h1>
+    <div class="ver">最新版本 <b>v1.1</b></div>
+    <div class="notes">
+      <h2>本次更新</h2>
+      <p>1. 新增实时消息接收（WebSocket 推送，无需手动刷新）<br>
+         2. 会话列表未读/末条消息实时更新<br>
+         3. 修复已知问题并优化体验</p>
+    </div>
+    <a class="btn" href="app-v1.1.apk" download>下载 APK</a>
+    <div class="tip">Android 安装包 · 约 6.9 MB</div>
+    <div class="footer">Furry Talking · 兽圈社交</div>
+  </div>
+</body>
+</html>
